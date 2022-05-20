@@ -8,10 +8,12 @@ body{
     position: relative;
     height: 45vh;
     
+    
     font-family: 'Overpass', sans-serif;
     background-color: hsl(216, 12%, 8%); font-size: 15px; color: hsl(0, 0%, 100%) ;
 }
 .star{
+    color: #959eac;
     border-radius: 50%;
     height: 12%; 
     background-color:  #565c647c;
@@ -56,6 +58,7 @@ p{
     padding: 10px;
 }
 button{
+    color: #959eac;
     background-color: #565c647c;
     width: 45px;
     height: 25%;
@@ -70,12 +73,28 @@ button{
 }
 button:hover{
     background-color:rgb(251, 116, 19) ;
-    cursor: pointer;
+    cursor:pointer;
+}
+button:focus{
+    background-color: #959eac;
+    color: #f0f8ff;
 }
 input{
-    background-color:red;
-    padding: 15px;
+    background-color:white;
+    padding: 10px;
     width: 100%;
+    font-weight: 700;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(251, 116, 19);
+    color: #f0f8ff;
+    font-family: 'Overpass', sans-serif;
+    border-radius: 35px;
+}
+input:hover{
+    
+    background-color: #f0f8ff;
+    color: rgb(251, 116, 19);
 }
 .attribution { 
     font-size: 11px;
