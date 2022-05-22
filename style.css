@@ -15,7 +15,8 @@ body{
 .star{
     color: #959eac;
     border-radius: 50%;
-    height: 12%; 
+    height: 45px; 
+    width: 42px;
     background-color:  #565c647c;
     font-size: x-large;
     position:absolute;
@@ -28,7 +29,7 @@ body{
 .inner-container{
     background-color: red;
 }
-h1{
+.text1{
     padding-top: 80px;
     color: white;
     font-family: 'Overpass', sans-serif;
@@ -100,14 +101,21 @@ input:hover{
     position: relative;
 }
 .image{
-    /* position: absolute;
-    bottom: 20px; */
+    position: absolute;
+    
+    background-color:blue;
 }
-.text{
+.text2{
     text-align: center;
+    background-color: green;
+}
+h4{
+    background-color: red;
+   
 }
 
 .message{
+
     text-align: center;
 }
 .attribution { 
