@@ -97,25 +97,37 @@ input:hover{
     background-color: #f0f8ff;
     color: rgb(251, 116, 19);
 }
-.image-details{
+/* .image-details{
     position: relative;
+} */
+.image{ 
+    margin-left: 75px;
+    padding-bottom: 20px;
+   
 }
-.image{
-    position: absolute;
-    
-    background-color:blue;
-}
+
 .text2{
+    font-family: 'Overpass', sans-serif;
+    margin-top: 30px;
+    padding: 5px;
     text-align: center;
-    background-color: green;
+   
 }
 h4{
-    background-color: red;
+    font-family: 'Overpass', sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+    padding:6px;
+    background-color:  #565c647c;
+    border-radius: 50px;
+    width:55%;
+    margin-left: 72px;
+    color: rgb(251, 116, 19) ;
    
 }
 
 .message{
-
+    font-family:'overpass','sans-serif' ;
     text-align: center;
 }
 .attribution { 
