@@ -51,7 +51,21 @@ p{
     border-radius: 40px;
     padding: 30px;
    
-    }
+}
+.container2{
+    position:relative;
+    /* top: 100px;
+    left: 100px;
+     */
+    height: 400px;
+    margin: 100px auto;
+    background-color: hsl(213, 19%, 18%);
+    width: 400px;
+    /* height: 70vh; */
+    border-radius: 40px;
+    padding: 30px;
+}
+
 .btn{
     display: flex;
     flex-direction: row;
