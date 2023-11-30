@@ -87,7 +87,7 @@ button{
     
 }
 button:hover{
-    background-color:rgb(251, 116, 19) ;
+    background-color:rgb(218, 110, 33) ;
     cursor:pointer;
 }
 button:focus{
@@ -101,7 +101,7 @@ input{
     font-weight: 700;
     margin-top: 20px;
     border: none;
-    background-color: rgb(251, 116, 19);
+    background-color: rgb(212, 111, 39);
     color: #f0f8ff;
     font-family: 'Overpass', sans-serif;
     border-radius: 35px;
@@ -109,7 +109,7 @@ input{
 input:hover{
     
     background-color: #f0f8ff;
-    color: rgb(251, 116, 19);
+    color: rgb(219, 100, 14);
 }
 /* .image-details{
     position: relative;
